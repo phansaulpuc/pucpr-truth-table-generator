@@ -1,0 +1,202 @@
+::-webkit-input-placeholder { font-size: 26px;text-transform:none;}
+::-moz-placeholder { font-size: 26px;text-transform:none;}
+:-ms-input-placeholder { font-size: 26px;text-transform:none;}
+:-moz-placeholder { font-size: 26px;text-transform:none;}
+
+
+body {
+   background-color: #ac3748;
+}
+
+.content {
+   max-width: 1000px;
+   margin: auto;
+ }
+
+.logo {
+   padding: 60px  0 10px 0;
+   margin: auto;
+   display: table;
+}
+
+.logo img{
+   width:250px;
+}
+
+.erro{
+   color: #fff;
+   font-size: 20px;
+}
+
+.numrows{
+   color: #fff;
+   font-size: 20px;
+}
+
+.calc{
+   color: #fff;
+   font-size: 20px;
+}
+
+.pinfo{
+   text-align: left;
+   line-height: 22px;
+}
+
+.info{
+   display: none;
+   margin-bottom: 5%;
+}
+
+.form-input::placeholder {
+   color: #fff;
+   opacity: 1;
+ }
+
+ .form-input:focus {
+   color: #fff;
+   background-color: #ac3748;
+   border: 2px solid #fff;
+ }
+
+.form-input {
+   min-height:40px;
+   background-color: none;
+   border-radius: 10px;
+   border: 2px solid #fff;
+   background-color: #ac3748;
+   color: #fff;
+
+   font-size: 26px;
+   text-transform:lowercase;
+}
+
+.buttons{
+   padding: 7px 1px 18px 1px;
+   min-width: 100%;
+}
+
+.btn:hover{
+   color: #fff;
+   border: solid 2px #ffaeba;
+}
+
+.buttons div{
+   width: 200px; 
+   height: 35px; 
+   display: inline-block;
+}
+
+.buttons:after{
+   content: '';
+   width: 100%; 
+   display: inline-block;
+}
+
+.btn {
+    border: solid 2px rgba(255,255,255,1);
+    color: #fff;
+   -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+           border-radius: 1px;
+   width: 200px;
+   height: 55px;
+   border-radius: 10px;
+   font-size: 26px;
+   line-height: 19px;
+   text-align: center;;
+}
+
+.borderless {
+   border:none;
+}
+
+.op-info{
+   display: none;
+}
+
+
+#codigoLatex {
+   display: none;
+   min-height: 300px;
+}
+
+.codigo{
+    background: none;
+    color: #fff;
+    border: 1px #ffff solid;
+    border-radius: 8px;
+    min-height: 275px;
+    padding: 14px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#mostrarLatex {
+   display: none;
+}
+
+#tabelaVerdade{
+   height: 315px;
+   margin: auto;
+   display: inline-block;
+}
+
+.tabela{
+   border-collapse: collapse;
+   min-width:100%; 
+   max-width: 1100px;
+}
+
+thead{
+   display: block;
+   padding:10px 0px 0px 0px; 
+   overflow: auto;
+   font-size:26px;}
+
+tbody{
+   display: block;
+   overflow: auto;
+   max-height: 375px;
+   font-size:26px
+}
+
+th{
+   color: #fff;
+   padding: 0px 12px 10px 12px;
+}
+
+td{
+   color: #fff;
+   padding: 0px 12px 10px 12px;
+   text-align: center;
+   height: 50px;
+   vertical-align: bottom;
+}
+
+tr{
+   border-bottom: 1px solid #ffffff;
+}
+
+
+p {
+   color: #fff;
+   height: 150px;
+   text-align: center;
+   font-size:20px;
+}
+
+footer {
+   color: #fff;
+   margin: auto;
+   display: table;
+   position: relative;
+   bottom: 5px;
+}
+
+o {
+   color: #fff;
+   height: 150px;
+   text-align: center;
+   font-size:20px;
+}
